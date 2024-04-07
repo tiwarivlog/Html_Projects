@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SarkariExamForm</title>
+</head>
+<body>
+    <div id="header">
+        <a href="https://www.google.com/">Feedback</a>
+        <a href="https://www.google.com/">SSC Old Website</a>
+        <br>
+        <hr>
+    </div>
+    <div id="nav">
+        
+        <div id="nav-table">
+
+            <!-- table for navbar  -->
+
+         <table>
+            <tr>
+                <td><img src="Img/sscLogo.png" alt="ssc" width="55px" height="45px"></td>
+                <td>
+                   <table>
+                    <tr><p><a href="https://www.google.com/">Goverment of india</a></p></tr>
+                    <tr><p><a href="https://www.google.com/">Staff selection commision </a></p></tr>
+                    
+                   </table>
+
+                   
+                </td>
+                <td>
+                 <form >
+                    <input type="text" placeholder="Search" size="13" >
+                    <img src="Img/search.jpeg" height="17px" width="30px" alt="Search">
+                 </form>
+                </td>
+                <td>
+                    <form>
+                        <input type="button" value="Login or Register">
+                    </form>
+                </td>
+                <td>
+                    <img src="Img/Satyamev-Jayate.png" height="45px" width="55px" alt="">
+                </td>
+            </tr>
+         </table>
+
+        </div>
+        
+        
+    </div>
+     <hr>
+    <div id="container-form">
+        <a href="https://www.google.com/">&#8592</a>
+        <a href="https://www.google.com/">Homepage</a>
+        &gt;
+        <a href="https://www.google.com/">One Time Registration</a>
+
+        <br><br><br>
+     <form>
+        <fieldset>
+         <p>One Time Registration</p>
+         <h2>Personal Details</h2>
+         <hr>
+         <p>1. Do you have a aadhar card?</p>
+         <input type="radio" name="validate" id="Yes">Yes
+         <input type="radio" name="validate" id="No">No
+
+         <p>a. Aadhar Card Number</p>
+         <input type="number" name="aadhar_card" id="aadhar_number" min="12"  placeholder="e.g.528923457700" required  >
+         <pre>aadhar Number should be same as mentioned in Aadhar Card.</pre>
+         <p>b. Verify Aadhar Card Number</p>
+         <input type="number" name="aadhar_card" id="aadhar_number" min="12"  placeholder="e.g.528923457700" required  >
+
+         
+         <p>2. Type of Identification Card</p>
+
+         <input type="text" name="Select" value="Select" list="ID_Card" >
+         
+         <datalist id="ID_Card">
+            <option value="Driving Lisence">
+            <option value="Pan Card">
+            <option value="School Card">
+            <option value="Aadhar Card">
+
+            
+         </datalist>
+         <pre>Type of ID and ID number to be provided if you dont want to give Aadhar Number.</pre>
+          
+         <p>a.Identification Card Number</p>
+         <input type="text" required>
+
+
+         <p>3. Candidate Name(As per Matriculation Certificate)</p>
+         <input type="text">
+         <pre>1.Candidate name should be ssame as mentioned in matriculation certificate
+2.Please enter name without any salutation(shri/smt/mrs/ms/dr/prog).
+         </pre>
+         <p>a. Verify Candidate Name(As per Matriculation Certificate)</p>
+         <input type="text">
+          
+
+         <p>4. Have you ever changed Name?</p>
+         <input type="radio" name="YES" id="Yes">Yes
+         <input type="radio" name="Yes" id="No">No
+
+         <p>a. New Name/Changed Name</p>
+         <input type="text"  >
+        
+         <p>b. Verify New Name/Changed Name</p>
+         <input type="text">
+
+
+
+
+        <p>5. Gender</p>
+
+         <input type="text" name="Select" value="Select" list="gender" >
+         
+         <datalist id="gender">
+            <option value="Male">
+            <option value="Female">
+            <option value="Trangender">
+          
+         </datalist>
+         <p>a. Verify Gender</p>
+         <input type="text" name="Select" value="Select" list="gender" >
+         
+         <datalist id="gender">
+            <option value="Male">
+            <option value="Female">
+            <option value="Trangender">
+          
+         </datalist>
+
+         <p>6. Date Of Birth(DD-MM-YYYY)</p>
+            <input type="date" name="dob" id="dob">
+            <pre>Date of birth should be same as mentioned in matriculation certificate</pre>
+            <p>a. Verify Date Of Birth(DD-MM-YYYY)</p>
+            <input type="date" name="dob" id="dob">
+
+         <p>7. Father's Name</p>
+            <input type="text">
+            <pre>1.Father's name should be ssame as mentioned in matriculation certificate
+2.Please enter name without any salutation(shri/smt/mrs/ms/dr/prog).
+                         </pre>
+             <p>a. Verify Father's Name</p>
+             <input type="text">       
+             
+             
+             <p>8. Mather's Name</p>
+             <input type="text">
+             <pre>1.Mather's name should be ssame as mentioned in matriculation certificate.
+2.Please enter name without any salutation(shri/smt/mrs/ms/dr/prog).
+                          </pre>
+              <p>a. Verify Mather's Name</p>
+              <input type="text">       
+              
+              <p>9. Matriculation(10th class) Education Board</p>
+
+              <input type="text" name="Select" value="Select" list="Board" >
+              
+              <datalist id="Board">
+                 <option value="Assam sanskrit board">
+                 <option value="Aligarh Muslim University,Aligarh">
+                 <option value="Board of Secondary Education,Madhya Pradesh">
+                 <option value="Board of Secondary Education,Assam">
+                 <option value="Board of Secondary Education,Odisha">
+                 <option value="Board of Secondary Education,Himanchal Pradesh">
+               
+              </datalist>
+              <pre>Education Board of Matriculation Examination
+             </pre>
+             <p>a. Verify Matriculation(10th class) Education Board</p>
+
+              <input type="text" name="Select" value="Select" list="Board" >
+              
+              <datalist id="Board">
+                 <option value="Assam sanskrit board">
+                 <option value="Aligarh Muslim University,Aligarh">
+                 <option value="Board of Secondary Education,Madhya Pradesh">
+                 <option value="Board of Secondary Education,Assam">
+                 <option value="Board of Secondary Education,Odisha">
+                 <option value="Board of Secondary Education,Himanchal Pradesh">
+               
+              </datalist>
+         
+             <p>10. Roll Number</p>
+              <input type="number" name="aadhar_card" id="aadhar_number" min="12"  placeholder="e.g.528923457700" required  >
+            <pre>(1) Roll number should be same as mentioned in matriculation caertificate.
+(2) Only/and - are allowd, Please enter Roll number without any other special character(s).            
+            </pre>
+              <p>a. Verify Roll Number</p>
+              <input type="number" name="aadhar_card" id="aadhar_number" min="12"  placeholder="e.g.528923457700" required  >
+     
+         <p>11. Year of Passing</p>
+         <input type="text" name="Select" value="Select" list="year" >
+              
+         <datalist id="year">
+            <option value="2024">
+            <option value="2023">
+            <option value="2022">
+            <option value="2021">
+            <option value="2020">
+            <option value="2019">
+            <option value="2018">
+            <option value="2017">
+            
+          
+         </datalist>
+         <p>a. Verify Year of Passing</p>
+         <input type="text" name="Select" value="Select" list="year" >
+              
+         <datalist id="year">
+            <option value="2024">
+            <option value="2023">
+            <option value="2022">
+            <option value="2021">
+            <option value="2020">
+            <option value="2019">
+            <option value="2018">
+            <option value="2017">
+            
+          
+         </datalist>
+    
+
+         <p>12. Highest Level of Education Qualification</p>
+         <input type="text" name="Select" value="Select" list="Qual" >
+              
+         <datalist id="Qual">
+            <option value="Matricualtion(10th)">
+            <option value="Higher Secondary(10+2)">
+            <option value="Diploma">
+            <option value="Graduation">
+            <option value="Post Graduation">
+            <option value="PHD">
+            
+            
+         </datalist>
+         <p>a. Verify Highest Level of Education Qualification</p>
+         <input type="text" name="Select" value="Select" list="Qual" >
+              
+         <datalist id="Qual">
+            <option value="Matricualtion(10th)">
+            <option value="Higher Secondary(10+2)">
+            <option value="Diploma">
+            <option value="Graduation">
+            <option value="Post Graduation">
+            <option value="PHD">
+            
+            
+         </datalist>
+         <p>13. Candidate's Mobile Number</p>
+         <input type="tel" id="mobileNumber" maxlength="10" pattern="[0-9]{10}" required>
+
+         <pre>OTP for verfication will be sent to this mobile number</pre>
+
+
+
+
+         <p>14. Candidate's Email ID</p>
+         <input type="email" name="email" id="email_ID" required>
+         <pre>OTP for verfication will be sent this Email ID</pre>
+         
+         <input type="submit" value="Save & Next">
+        </fieldset>
+
+     </form>
+
+    </div>
+</body>
+</html>
